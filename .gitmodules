@@ -1,3 +1,6 @@
 [submodule "content/themes/saga"]
 	path = content/themes/saga
 	url = https://github.com/Reedyn/Saga.git
+[submodule "content/themes/saga_co_fork"]
+	path = content/themes/saga_co_fork
+	url = https://github.com/corentone/Saga.git
