@@ -1,8 +1,9 @@
-var path = require('path');
 var ghost = require('ghost');
 
-ghost({
-  config: path.join(__dirname, 'config.js')
-}).then(function (ghostServer) {
-  ghostServer.start();
-});
+// Run a single Ghost process
+ghost()
+  .then( ghostServer => ghostServer.start() )
+  .catch( error => {
+    console.error(`Ghost server error: ${error.message} ${error.stack}`);
+    process.exit(1);
+  });
