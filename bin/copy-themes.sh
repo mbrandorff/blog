@@ -6,6 +6,7 @@ themes=(
 	bleak
 	the-shell
 	vapor
+	michael-brandorff-ghost
 )
 
 for theme in "${themes[@]}"
