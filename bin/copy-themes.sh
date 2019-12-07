@@ -1,11 +1,5 @@
 themes=(
 	casper
-	attila
-	london
-	massively
-	bleak
-	the-shell
-	vapor
 	michael-brandorff-ghost
 )
 
