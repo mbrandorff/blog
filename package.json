@@ -14,7 +14,7 @@
     "ghost": "^3.1.1",
     "ghost-storage-adapter-s3": "^2.8.0",
     "ghost-storage-cloudinary": "^2.0.0",
-    "michael-brandorff-ghost": "github:mbrandorff/michael-brandorff-ghost",
+    "michael-brandorff-ghost": "github:mbrandorff/michael-brandorff-ghost#v0.3.2",
     "mysql": "^2.17.1"
   },
   "engines": {
